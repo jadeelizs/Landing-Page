@@ -7,7 +7,7 @@ body {
    flex-direction: column;
 }
 
-.container{
+.container {
     background: white;
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +47,7 @@ a:link {
     margin-left: 250px;
 }
 
+
 h1 {
     display: flex;
     justify-self: flex-start;
@@ -70,14 +71,21 @@ button {
     display: flex;
     padding-bottom: 60px;
     margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 .box-two {
     display: flex;
     margin-left: 250px;
     margin-right: 250px;
-    margin-top: 60px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+   
 }
+
 
 .one, .two, .three, .four {
     display: flex;
@@ -85,27 +93,54 @@ button {
     gap: 10px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-img {
+img.rounded-corners {
     display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 15px;
 }
 
 .container-three {
     background: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px
+}
+
+h5 {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row-reverse;
 }
 
 .container-four {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
     background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     height: 72px;
     background: lightgrey;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
