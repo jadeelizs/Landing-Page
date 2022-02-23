@@ -38,6 +38,7 @@ ul {
 
 a:link {
     text-decoration: none;
+    color: inherit;
 }
 
 .box-one {
@@ -54,17 +55,11 @@ h1 {
     align-self: center;
 }
 
-p {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 button {
     height: 100px;
     width: 100px;
     color: black;
 }
-
 
 .container-two {
     background: lightsteelblue;
@@ -94,6 +89,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-style: italic;
 }
 
 img.rounded-corners {
@@ -105,12 +101,15 @@ img.rounded-corners {
     border-radius: 15px;
 }
 
+
 .container-three {
-    background: lightgoldenrodyellow;
+    background: darkseagreen;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-style: italic;
 }
 
 h5 {
@@ -128,16 +127,37 @@ h5 {
     align-items: center;
 }
 
-.signup {
-    background: wheat;
+.box-three {
+    background: lightgrey;
+    border-style: groove;
+    width: 500px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-one {
+    align-self: flex-end;
+}
+
+button {
+    height: 20px;
+    width: 80px;
+    color: white;
+    background: darkgray;
+}
+
+h6 {
+    margin: -20px;
 }
 
 .footer {
     height: 72px;
-    background: lightgrey;
+    background: lightsteelblue;
     color: black;
     display: flex;
     justify-content: center;
