@@ -8,7 +8,6 @@ body {
 }
 
 
-
 .container {
     background: white;
     display: flex;
@@ -35,6 +34,7 @@ body {
     color: black;
     display: flex;
     justify-self: flex-end;
+    flex-wrap: wrap;
 }
 
 a:link {
@@ -51,7 +51,7 @@ ul {
     margin-right: 250px;
 }
 
-/*
+
 
 button {
     height: 100px;
@@ -66,7 +66,6 @@ button {
     margin-top: 40px;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 2;
 }
 
 
@@ -75,11 +74,6 @@ button {
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 2;
-   
 }
 
 
@@ -87,11 +81,9 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
     font-style: italic;
-    flex-wrap: wrap;
-    flex: 2;
+    align-items: center;
+    justify-content: center;
 }
 
 img.rounded-corners {
@@ -103,8 +95,6 @@ img.rounded-corners {
     border-radius: 8px;
     background: white;
 }
-
-
 
 .container-three {
     background: darkseagreen;
