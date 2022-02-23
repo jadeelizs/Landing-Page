@@ -7,11 +7,12 @@ body {
    flex-direction: column;
 }
 
+
+
 .container {
     background: white;
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 10px;
+    padding-top: 20px;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -20,11 +21,25 @@ body {
     margin-left: 250px;
 }
 
+.box-one {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 250px;
+    flex: wrap;
+    flex: 1;
+}
+
 .links {
     background: white;
     color: black;
     display: flex;
     justify-self: flex-end;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
 }
 
 ul {
@@ -36,24 +51,7 @@ ul {
     margin-right: 250px;
 }
 
-a:link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.box-one {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 250px;
-    margin-left: 250px;
-}
-
-
-h1 {
-    display: flex;
-    justify-self: flex-start;
-    align-self: center;
-}
+/*
 
 button {
     height: 100px;
@@ -68,6 +66,7 @@ button {
     margin-top: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    flex: 2;
 }
 
 
@@ -78,6 +77,8 @@ button {
     margin-top: 20px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex: 2;
    
 }
 
@@ -88,18 +89,21 @@ button {
     gap: 10px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     font-style: italic;
+    flex-wrap: wrap;
+    flex: 2;
 }
 
 img.rounded-corners {
-    display: flex;
+    border: 1px solid black;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    border-radius: 15px;
+    border-radius: 8px;
+    background: white;
 }
+
 
 
 .container-three {
@@ -111,6 +115,8 @@ img.rounded-corners {
     padding-bottom: 60px;
     font-style: italic;
 }
+
+
 
 h5 {
     display: flex;
@@ -130,7 +136,7 @@ h5 {
 .box-three {
     background: lightgrey;
     border-style: groove;
-    width: 500px;
+    max-width: 500px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -140,15 +146,12 @@ h5 {
     gap: 20px;
 }
 
-.text-one {
-    align-self: flex-end;
-}
-
 button {
     height: 20px;
-    width: 80px;
+    max-width: 80px;
     color: white;
     background: darkgray;
+   
 }
 
 h6 {
@@ -162,5 +165,6 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
 }
 
