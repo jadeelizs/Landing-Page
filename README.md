@@ -20,5 +20,3 @@ Images shown on Landing Page
     Creators Instagram: https://www.instagram.com/yankrukov/
 
     Coffee Pour: Photo by Ketut Subiyanto from Pexels
-
-    Coffee Cup Banner: Photo by Angela Roma from Pexels
