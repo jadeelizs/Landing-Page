@@ -1,9 +1,8 @@
 # Landing-Page
 
 Here I will be working on a simple web landing page. 
-I've added some basic HTML markup text as the beginning structure of the landing page. 
-Added images and proper text for the landing page. 
-Added some CSS.
+I've used a mix of HTML and CSS to design this faux landing page. 
+I need to make the webpage "flex", so I will be coming back to this project at a later date to fix that aspect.
 
 Images shown on Landing Page
 
@@ -21,3 +20,5 @@ Images shown on Landing Page
     Creators Instagram: https://www.instagram.com/yankrukov/
 
     Coffee Pour: Photo by Ketut Subiyanto from Pexels
+
+    Coffee Cup Banner: Photo by Angela Roma from Pexels
